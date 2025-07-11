@@ -1,3 +1,5 @@
+@import url("./fonts.css");
+
 :root {
   --blue-600: hsl(185, 75%, 39%);
   --navy-950: hsl(229, 23%, 23%);
@@ -6,4 +8,108 @@
   --font-size: 18px;
   --font-400: 400;
   --font-700: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Apply custom fonts */
+  font-family: "KumbhSans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue-600);
+}
+
+.top {
+  position: absolute;
+  top: -32rem;
+  left: -16rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -36rem;
+  right: -19rem;
+}
+
+.card-container {
+  background-color: var(--gray-100);
+  height: 64%;
+  width: 28rem;
+  border-radius: 18px;
+  z-index: 100;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-top {
+  height: 40%;
+  width: 100%;
+}
+
+.card-bottom {
+  height: 60%;
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img,
+.avatar {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 60;
+  color: var(--navy-950);
+}
+
+.card-avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 7rem;
+  width: 7rem;
+  padding: 5px;
+  background-color: var(--gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: contain;
 }

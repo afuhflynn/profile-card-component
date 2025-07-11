@@ -1,0 +1,7 @@
+/* Example: Using a custom font from the public/fonts directory */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("./public/KumbhSans-VariableFont_YOPQ,wght.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
