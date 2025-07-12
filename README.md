@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/afuhflynn/profile-catd-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Profile Card Component](https://astonishing-truffle-901017.netlify.app)
 
 ## My process
 
